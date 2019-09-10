@@ -18,6 +18,7 @@ This folder is orgarnized as follows.
 ```
 proj/
 ├── source/
+├── pic/
 ├── code
 ├── READMe.md
 ```

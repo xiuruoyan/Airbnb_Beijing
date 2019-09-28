@@ -2,16 +2,16 @@
 ## Project 1: Look into Airbnb Beijing Data
 
 ### Project summary: 
-When I choose an Airbnb, I always see the scores and reviews to make my decisions. In this project, I want to see if it's a common behavior based on Airbnb Data. There're three questions I tried to answer.  
+When I choose an Airbnb, I always see the scores and reviews to make my decisions. In this project, I want to see if it's a common behavior based on Airbnb Data. Based on the results, host can improve their services in certain ways to make more profit. There're three questions I tried to answer.  
 1. Does score influence availability?  
 2. If yes, how to improve scores?
 3. How to improve availability based on reviews?
 
-To reduce other elements' affect as much as possible like season, I choose unavailability in 30 days as response variable. After applying linear regression to all quantitative data, including neighbourhood, room type, price, review scores rating, reviews per month, number of reviews ltm, property type and response, the coefficient of review scores rating is the highest among all the categories, which means a place with higher score attracts more users. Due to all the collected scores, review scores rating, review scores accuracy, review scores cleanliness, review scores checking, review scores communication, review scores location, and review scores value, review scores value have the highest correlation with review scores rating.   
+To reduce other elements' affect as much as possible like season, I choose unavailability in 30 days as response variable. After applying linear regression to all quantitative data, including neighbourhood, room type, price, review scores rating, reviews per month, number of reviews ltm, property type and response, the coefficient of review scores rating is the highest among all the categories, which means it's more likely that a place with higher score could attract more users. Due to all the collected scores, review scores rating, review scores accuracy, review scores cleanliness, review scores checking, review scores communication, review scores location, and review scores value, review scores value have the highest correlation with review scores rating.   
 ![correlation](pic/correlation.png)  
 In this case, if a host properly provide service as it matches the price, he may have greater chance to get high score overall.  
  
-Based on all reviews, the words show most times are related to good location and friendly host. In order to be impressive, the most workable way is to be friendly and helpful. 
+Based on all reviews, the words show most times are related to good location and friendly host. So for hosts, in order to be impressive, the most workable way is to be friendly and helpful. 
 
 ![wordcloud](pic/wordcloud.png)  
 
@@ -24,6 +24,10 @@ proj/
 ├── code
 ├── READMe.md
 ```
+- source: containing all data set that I used.
+- pic: pictures with visual statistical information.
+- code: a Jupyter Notebook file compiling data processing cdoe.
+- README.md: summary of the all project.
 
 References used:  
 1. http://insideairbnb.com/get-the-data.html : Airbnb Data Source 

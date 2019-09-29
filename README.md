@@ -29,5 +29,8 @@ proj/
 - code: a Jupyter Notebook file compiling data processing cdoe.
 - README.md: summary of the all project.
 
+Check blog on:
+
+
 References used:  
 1. http://insideairbnb.com/get-the-data.html : Airbnb Data Source 

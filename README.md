@@ -29,7 +29,7 @@ proj/
 - code: a Jupyter Notebook file compiling data processing cdoe.
 - README.md: summary of the all project.
 
-Check blog on:
+Check blog on: https://www.weibo.com/ttarticle/p/show?id=2309404422150369968135#_0
 
 
 References used:  

@@ -31,6 +31,5 @@ proj/
 
 Check blog on: https://www.weibo.com/ttarticle/p/show?id=2309404422500560797704
 
-
 References used:  
 1. http://insideairbnb.com/get-the-data.html : Airbnb Data Source 
